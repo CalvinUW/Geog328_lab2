@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Europan Geology</title>
+
+    <!-- Including the main.css file for styling -->
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Space Grotesk' rel='stylesheet'>
+
+    <!-- Including the Font Awesome CSS library for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body style="background-color: rgba(242,241,239,255);">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <!-- Navigation bar -->
+    <div class="topnav" id="myTopnav">
+        <!-- Links to different sections -->
+        <a href="index.html">Europa Overview</a>
+        <a href="section1.html">Discovery</a>
+        <!-- Active link pointing to the section2.html page -->
+        <a class="active" href="section2.html">Geology</a>
+        <a href="section3.html">Ocean</a>
+        <a href="section4.html">Human Exploration</a>
+        <a href="see_also.html">Resources & References</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links on smaller screens -->
+        <a href="javascript:void(0);" class="icon">
+            <i class="fa fa-bars"></i>
+        </a>
+    </div>
+    <!-- Page content -->
+    <div class="content">
+        <h1><strong>Europan Geology</strong></h1>
+        <!-- Slideshow container -->
+        <div class="slideshow-container" style="top: 20px; margin-bottom: 20px;">
+
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
+                <img class="slide_img"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Europa_Ice_Rafts.jpg/1200px-Europa_Ice_Rafts.jpg"
+                    style="width:100%; max-height: 900px;">
+                    <p style="text-align:center; font-size: 18px;">Europan Ice Rafts - Credit: NASA/JPL/ASU</p>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="slide_img"
+                    src="https://www.nasa.gov/sites/default/files/thumbnails/image/pia-25332-europa-sru-1041.jpg"
+                    style="width:100%; max-height: 900px;">
+                    <p style="text-align:center; font-size: 18px;">Europa Surface Features - Credit: NASA/JPL-Caltech/SwRI</p>
+            </div>
+
+            <div class="mySlides fade">
+                <img class="slide_img" src="https://cdn.sci.news/images/enlarge7/image_8393_3e-Europa.jpg"
+                    style="width:100%; max-height: 900px;">
+                    <p style="text-align:center; font-size: 18px;">Crisscrossing Bands - Credit: NASA/JPL-Caltech/SETI Institute</p>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <br>
+
+        <p><strong>Europa's geology</strong> is characterized by a unique and fascinating combination of icy surface features, fractures,
+            and evidence of past or ongoing geological activity. <em>Its geologic processes are primarily driven by
+                tidal forces exerted by Jupiter and its neighboring moons</em>.</p>
+        <p>The most prominent geological feature on Europa is its extensive network of fractures, also known as
+            "lineae." These fractures crisscross the moon's icy surface, stretching for hundreds of kilometers. They
+            vary in width, with some reaching several kilometers across. The lineae are thought to be a result of tidal
+            forces exerted by Jupiter's gravity, causing the icy crust to flex and crack. This suggests that Europa's
+            interior remains geologically active.</p>
+        <p>Another significant geological characteristic of Europa is the presence of ridges. These ridges can stretch
+            for hundreds of kilometers and rise several hundred meters above the surrounding terrain. They often
+            intersect and intersect the lineae, indicating complex and dynamic interactions between tectonic forces on
+            the moon's surface.</p>
+        <p>In addition to fractures and ridges, scientists have observed evidence of cryovolcanism on Europa. This
+            phenomenon involves the eruption of water, ice, and other volatile substances from beneath the moon's
+            surface. Cryovolcanic features, such as plumes and geysers, have been detected, indicating the presence of a
+            subsurface ocean. These eruptions release material that settles on the surface, contributing to the
+            formation of the moon's icy crust.</p>
+    </div>
+
+
+
+
+    <!-- Including the main.js file for JavaScript functionality -->
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
